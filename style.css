@@ -77,15 +77,21 @@ a{
 
 #nav_opt{
     /* border: 2px solid white; */
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
     align-items: center;
-    
-    
+    margin-left: 230px;
+    width: auto;
+       
+}
+#navbar{
+    display: flex;
 }
 
 #nav_opt p{
     color: black;
     transition-duration: 500ms;
+   
 }
 
 #nav_opt > div{
@@ -109,10 +115,6 @@ a{
     /* text-decoration: underline; */
 }
 
-#home{
-    
-    padding-top: 150px;
-}
 
 #about{
     /* border: 2px solid green; */
@@ -130,9 +132,11 @@ a{
     width: 52%;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 'Times New Roman', Times, serif;
     line-height: 20px;
-    /* font-weight: 600; */
-    padding-left: 3%;
+    /* font-weight: 600;*/ 
+    padding-left: 6%;
     padding-top: 10px;
+    height: 300px;
+    margin-top: 90px;
 }
 .role{
     font-size: 32px;
@@ -150,10 +154,8 @@ a{
     font-size: 20px;
     line-height: 36px;
 }
-
-#intro{
-    
-    width: 700px;
+#home >div{
+   margin-top: 120px;
 }
 
 #intro > .brief{
@@ -170,7 +172,7 @@ a{
     width: 48%;
     display: flex;
     justify-content: center;
-    padding-top: 40px;
+    padding-top: 80px;
 }
 
 #photo > div{
@@ -469,9 +471,22 @@ a{
         border: none;
         width: 95%;
         margin: auto;
-        height: 50%;        
+        height: 50%; 
+        
+            
     }
-
+   
+    #top, #navbar{
+     
+       height: 300px;
+      
+       
+          
+   }
+ 
+  #home, #intro {
+        margin-bottom: 300px;
+  }
     #icon > i{
         font-size: 20px;
     }
@@ -479,6 +494,32 @@ a{
     #nav_opt{
         /* border: 2px solid white; */
         margin-right: 0px;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 60px;
+        height: 250px;
+        margin-left: -600px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+  
+    }
+    #nav_opt>p{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+
+    #about{
+        margin-top: -500px;
+    }
+    
+    
+    #home>div{
+        width: 350px;
+        margin-top: 350px;
+    }
+    .role{
+        font-size: 18px;
+
     }
 
     #nav_opt > div{        
@@ -508,7 +549,11 @@ a{
         width: 52%;
         line-height: 10px;       
         padding-left: 5%;
-        margin-top: -20px;
+        margin-top: 270px;
+    }
+
+    .heading{
+        margin-top: 270px;
     }
 
     #intro > .brief{
@@ -561,7 +606,8 @@ a{
 
     #types{
         display: flex;
-        flex-direction: column;       
+        flex-direction: column;  
+        height: 1800px;     
     }
 
     #types .skillHead{
@@ -577,7 +623,10 @@ a{
     }
 
     #types > div{
-        margin-bottom: 10px;        
+        margin-bottom: 10px; 
+        grid-template-columns: repeat(1,1fr);
+           
+              
     }
 
     #types > div > div{
