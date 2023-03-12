@@ -22,10 +22,13 @@ a{
 }
 
 #top, #navbar{
-    background-color: rgb(169, 159, 159);
+     
+     background: linear-gradient(to right, #d16ba5, #c777b9,  #f39dec, #eb6b9c, #e68eba);
+    width: 100%;
+   
 }
 #navbar{
-    width: 75%;
+    width: 90%;
     margin: auto;
     /* border: 2px solid white; */
     display: flex;
@@ -33,7 +36,8 @@ a{
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);  
+    transform: translateY(-50%); 
+     
 }
 
 #icon{
@@ -46,6 +50,12 @@ a{
     border-radius: 50%;  
     /* font-weight: 500;   */
     color: white;
+}
+
+.ptname >p{
+    font-size: 29px;
+    margin-left: 8px;
+    font-weight: 200;
 }
 
 #icon:hover{
@@ -69,6 +79,8 @@ a{
     /* border: 2px solid white; */
     display: flex;
     align-items: center;
+    
+    
 }
 
 #nav_opt p{
@@ -97,6 +109,11 @@ a{
     /* text-decoration: underline; */
 }
 
+#home{
+    
+    padding-top: 150px;
+}
+
 #about{
     /* border: 2px solid green; */
     /* height: 500px; */
@@ -119,21 +136,31 @@ a{
 }
 .role{
     font-size: 32px;
+    color: rgb(241, 108, 12);
 }
 .brief{
     border-left: 6px solid rgb(100, 100, 100);
     padding-left: 2%;
+    
 }
-
+.brief>p{
+    font-size: 17px;
+}
 .locate{
     font-size: 20px;
     line-height: 36px;
+}
+
+#intro{
+    
+    width: 700px;
 }
 
 #intro > .brief{
     font-size: 24px;
     line-height: 36px;
 }
+
 
 .fa-solid{
     font-size: 125%;
@@ -148,7 +175,7 @@ a{
 
 #photo > div{
     /* border: 2px solid white; */
-    width: 80%;    
+    width: 90%;    
 }
 
 #photo img{
@@ -166,8 +193,9 @@ a{
     background-color: rgb(99, 99, 99);
     padding: 10px 20px 10px 20px;
     border-radius: 6px;
-    margin-top: -10px;
+
 }
+
 
 #resume:hover{
     cursor: pointer;
@@ -175,9 +203,14 @@ a{
 }
 
 
+.linehr{
+    border: 2px solid black;
+    margin-top: -26px;
+}
+
 
 #skills, #projects, #contacts {
-    width: 75%;
+    width: 100%;
     /* padding-left: 3%; */
     /* height: 200px; */
     border: 1px solid rgb(160, 160, 160);
@@ -193,17 +226,20 @@ a{
     font-size: 44px;
     line-height: 10px;
     font-weight: 400;
+    height: auto;
     /* color: white; */
     /* margin-bottom: 60px; */
 }
 
 #types{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 8%;    
     width: 85%;
     margin: auto;
     margin-top: 5%;
+    border: 1px solid red;
+    height: 950px;
 }
 
 #types > div{
@@ -212,6 +248,11 @@ a{
     background-color: rgb(214, 212, 212);
     text-align: center;
     padding-bottom: 3%;    
+    border: 1px solid yellow;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
 }
 
 #types > div > div{
@@ -223,12 +264,18 @@ a{
 }
 
 #types .skillHead{
-    font-size: 32px;
+    font-size: 30px;
+    background-color: #6b043e;
+    color: whitesmoke;
+    padding: 10px;
+    margin-left: 2px;
+    border-radius: 25px;
+
     
 }
 
 #types img{
-    width: 17%;
+    width: 25%;
     height: 89%;
    
 }
@@ -237,19 +284,26 @@ a{
     font-size: 24px;
     font-weight: 500;
     line-height: 1;
-    margin-top: 5px;
+    margin-top: 15px;
 }
+
 
 
 
 #pro1, #pro2, #pro3{
      /* border: 1px solid rgb(160, 160, 160); */
      display: flex;
+     gap: 50px;
+     
+
 }
+
+
 
 #pro1 > div, #pro2 > div, #pro3 > div{
     width: 50%;
 }
+
 
 #pro1, #pro2, #pro3{
     margin-top: 80px;
@@ -266,6 +320,7 @@ a{
     width: 95%;
     border: 2px solid gray;
     border-radius: 10px;
+    margin-top: 30px;
     /* margin-left: -20px; */
 }
 
@@ -331,6 +386,10 @@ a{
     margin-left: 24px;
 }
 
+.fetr{
+    line-height: 27px;
+}
+
 #pro2 button{
     margin-right: 24px;
 }
@@ -371,6 +430,26 @@ a{
 
 #last{
     height: 120px;    
+}
+
+#ty{
+    width: 240px;
+    height: 70px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    background-color: black;
+    margin-top: 40px;
+}
+
+#ty>H1{
+    color: white;
+    background:linear-gradient(90deg, #00dbde,#fc00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
 }
 
 

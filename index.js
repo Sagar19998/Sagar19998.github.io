@@ -1,7 +1,7 @@
 
 function resumeDownload(){
    
-    window.open("Sagar-Jadhao-Resume (6).pdf","_blank");
+    window.open("https://drive.google.com/file/d/1fL5twdC4PYSQWzi70TMCtdzQ4UsVD4Y_/view?usp=sharing","_blank");
   }
 
 
