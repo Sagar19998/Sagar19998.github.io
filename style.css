@@ -50,6 +50,7 @@ a{
     border-radius: 50%;  
     /* font-weight: 500;   */
     color: white;
+    margin-top: 5px;
 }
 
 .ptname >p{
