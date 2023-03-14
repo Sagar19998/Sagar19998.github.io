@@ -433,7 +433,7 @@ a{
     height: 120px;    
 }
 
-#ty{
+/*#ty{
     width: 240px;
     height: 70px;
     display: flex;
@@ -451,12 +451,13 @@ a{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
    
-}
+}  */
 
 
 /* setting screen size */
 /* Small screens */
-@media only screen and (min-width : 160px) and (max-width : 500px){
+
+@media only screen and (min-width : 320px) and (max-width : 480px){
     #top{
         height: 80px;
         width: 100%;        
@@ -585,10 +586,14 @@ a{
         width: 96%;       
         margin-top: 40px;
         padding-bottom: 5%;
+        border: none;
     }
 
     .heading{                
-        font-size: 24px;       
+        font-size: 24px;
+        padding-top: 10px;
+        
+             
     }
 
    
@@ -709,3 +714,274 @@ a{
 
     
 }
+
+
+
+
+
+
+
+
+
+/*  for tablet media querys */
+
+
+@media only screen and (min-width : 481px) and (max-width : 768px){
+    #top{
+        height: 80px;
+        width: 100%;        
+    }
+
+    #icon{
+        height: 40px;
+        width: 40px;
+    }
+
+    #navbar{
+        border: 1px solid white;
+        border: none;
+        width: 95%;
+        margin: auto;
+        height: 50%;        
+    }
+
+    #top, #navbar{
+     
+       height: 300px;
+      
+       
+          
+   }
+ 
+  #home, #intro {
+        margin-bottom: 300px;
+  }
+    #icon > i{
+        font-size: 20px;
+    }
+
+    #nav_opt{
+        /* border: 2px solid white; */
+        margin-right: 0px;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 60px;
+        height: 250px;
+        margin-left: -600px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+  
+    }
+    #nav_opt>p{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+
+    #about{
+        margin-top: -500px;
+    }
+    
+    
+    #home>div{
+        width: 350px;
+        margin-top: 350px;
+    }
+    .role{
+        font-size: 18px;
+
+    }
+
+    #nav_opt > div{        
+        margin-left: 0px;
+        padding-left: 6px;
+        padding-right: 4px;       
+        font-size: 12px;
+        height: 50%;
+    }
+
+    #about{
+        /* border: 2px solid white; */       
+        width: 100%;
+        margin: auto;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #about > div{
+         /* border: 2px solid white; */
+         width: 100%;
+    }
+
+    #intro{
+        font-size:34px;        
+        width: 52%;
+        line-height: 10px;       
+        padding-left: 5%;
+        margin-top: 270px;
+    }
+
+    .heading{
+        margin-top: 270px;
+    }
+
+    #intro > .brief{
+        width: 80%;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #photo > div{
+        width: 90%;
+        margin: auto;
+    }
+
+    #intro > .locate{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #resume{       
+        font-size: 18px;       
+        letter-spacing: 2px;       
+        padding: 8px 16px 8px 16px;
+        border-radius: 5px;
+        margin-top: 0px;
+    }
+
+    #skills, #projects, #contacts {
+        width: 96%;       
+        margin-top: 40px;
+        padding-bottom: 5%;
+        border: none;
+
+        
+    }
+
+    .heading{                
+        font-size: 24px;  
+        height: 100px;
+        font-size: 28px;
+       
+       
+    }
+
+   
+
+    .name3{
+        font-size: 17px;         
+        margin-left: 8px;
+        line-height: 8px;   
+    }
+
+    .line3{
+        font-size: 13px;
+        margin-left: 10px;        
+        line-height: 8px;
+    }
+
+    #types{
+        display: flex;
+        flex-direction: column;  
+        height: 1800px;     
+    }
+
+    #types .skillHead{
+        font-size: 20px;
+    }
+
+    #types img{
+        width: 24%;       
+    }
+    
+    #types .techs{
+        font-size: 16px;        
+    }
+
+    #types > div{
+        margin-bottom: 10px; 
+        grid-template-columns: repeat(3,1fr);
+           
+              
+    }
+
+    #types > div > div{
+        margin-bottom: 10px;
+        width: 80%;
+    }
+
+    #pro1, #pro2, #pro3{       
+        flex-direction: column; 
+        width: 90%;    
+        margin: auto;  
+        margin-top: 20px;
+    }
+    
+    #pro2 {
+        flex-direction: column-reverse;
+    }
+
+    #pro1 > div, #pro2 > div, #pro3 > div{
+        width: 100%;        
+    }
+
+    .name{
+        font-size: 20px; 
+        font-weight: 600;        
+        line-height: 10px;  
+        margin-left: 0%; 
+    }
+    .name2{
+        text-align: left;
+        font-size: 20px;
+        font-weight: 600;        
+        line-height: 10px;   
+    }
+    .line{        
+        font-size: 14px;
+        margin-left: 0%;
+    }
+    
+    .line2{
+        text-align: left;        
+        font-size: 14px;        
+    }
+   
+   #pro1 img, #pro3 img, #pro2 img{
+       width: 100%;       
+       border: 1px solid black;
+       border-radius: 5px;
+       margin-left: 0cm;
+   } 
+   
+   #pro1 button, #pro2 button, #pro3 button{       
+       font-size: 14px;       
+       letter-spacing: 1.5px;        
+       padding: 6px 12px 6px 12px; 
+       margin-left: 0%; 
+       margin-right: 0%;     
+   } 
+   
+   #pro2 div:first-child{
+       text-align: left;
+   }
+   
+    #contacts i{        
+        font-size: 20px;       
+    }
+    
+    #incont > div{        
+        margin-top: 8px;
+    }
+    
+    #incont p, #incont p{
+        font-size: 14px;        
+    }
+
+    #last{
+        height: 40px;        
+    }
+
+    
+}
+
