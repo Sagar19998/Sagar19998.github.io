@@ -444,7 +444,6 @@ a{
     background-color: black;
     margin-top: 40px;
 }
-
 #ty>H1{
     color: white;
     background:linear-gradient(90deg, #00dbde,#fc00ff);
@@ -457,7 +456,7 @@ a{
 /* setting screen size */
 /* Small screens */
 
-@media only screen and (min-width : 320px) and (max-width : 480px){
+@media only screen and (min-width : 120px) and (max-width : 480px){
     #top{
         height: 80px;
         width: 100%;        
@@ -480,7 +479,7 @@ a{
    
     #top, #navbar{
      
-       height: 300px;
+       height:120px;
       
        
           
@@ -494,21 +493,33 @@ a{
     }
 
     #nav_opt{
-        /* border: 2px solid white; */
+       /* border: 2px solid white; */
         margin-right: 0px;
-        grid-template-columns: repeat(2,1fr);
-        margin-top: 60px;
-        height: 250px;
-        margin-left: -600px;
+        grid-template-columns: repeat(6,1fr);
+        padding-top: 40px;
+        height: 80px;
+        column-gap: 3px;
+        margin-left: -500px;
         width: 100%;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
+        
   
     }
-    #nav_opt>p{
-        font-size: 30px;
-        margin-left: 50px;
+    #nav_opt>div>p{
+        font-size: 10px;
+        
+        
+    
+        
     }
+   
+    #nav_opt>div>h2{
+        font-size: 8px;
+    }
+   
+
+
 
     #about{
         margin-top: -500px;
@@ -747,7 +758,7 @@ a{
 
     #top, #navbar{
      
-       height: 300px;
+       height: 130px;
       
        
           
@@ -763,9 +774,9 @@ a{
     #nav_opt{
         /* border: 2px solid white; */
         margin-right: 0px;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(6,1fr);
         margin-top: 60px;
-        height: 250px;
+        height: 80px;
         margin-left: -600px;
         width: 100%;
         align-items: center;
@@ -832,7 +843,7 @@ a{
     }
 
     #photo > div{
-        width: 90%;
+        width: 70%;
         margin: auto;
     }
 
@@ -981,7 +992,4 @@ a{
     #last{
         height: 40px;        
     }
-
-    
 }
-
